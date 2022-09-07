@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="./css/aos.css" rel="stylesheet">
+    <title>Builders</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <div class="logo"><img src="./img/logo.jpg" alt="logo"></div>
+        <ul class="nav-list v-class-resp">
+            
+            <li> <a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="right-nav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class=burger>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background2 firstSection" id="home">
+        <div class="box-main">
+            <div class="f-half">
+                <p class="text-big">The future is here</p>
+                <p class="text-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quibusdam maxime
+                    , molestiae at atque alias aut. Tenetur corrupti architecto magni ratione..</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+            </div>
+            <div class="s-half">
+                <img src="https://source.unsplash.com/300x300/?laptop">
+            </div>
+        </div>
+    </section>
+
+<section class="section">
+    <div class="paras" data-aos="fade-right" >
+        <p class="sectionTag text-big">Lorem ipsum dolor sit amet.</p>
+        <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ad error consequatur dolore explicabo, nihil voluptates rem impedit eligendi
+            tenetur quidem hic non eum ipsum temporibus, cum repudiandae magnam natus,
+            ratione similique totam.
+            Sunt consequatur voluptatem veritatis temporibus voluptas, aliquam minima!</p>
+    </div>
+    <div class="thumbnail" >
+        <img data-aos="fade-right" src="https://source.unsplash.com/300x300/?nature,water" alt="image" class="imgFluid">
+    </div>
+</section>
+<section class="section left" id="about" >
+    <div class="paras" data-aos="fade-left">
+        <p class="sectionTag text-big">Lorem ipsum dolor sit amet.</p>
+        <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ad error consequatur dolore explicabo, nihil voluptates rem impedit eligendi
+            tenetur quidem hic non eum ipsum temporibus, cum repudiandae magnam natus,
+            ratione similique totam.
+            Sunt consequatur voluptatem veritatis temporibus voluptas, aliquam minima!</p>
+    </div>
+    <div class="thumbnail">
+        <img data-aos="fade-left" src="https://source.unsplash.com/300x300/?coding" alt="image" class="imgFluid">
+    </div>
+</section>
+
+<section class="section" id="services" >
+    <div class="paras" data-aos="fade-right">
+        <p class="sectionTag text-big">Lorem ipsum dolor sit amet.</p>
+        <p class="sectionSubTag text-small">Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit.
+            Delectus in, veniam, qui minima sed distinctio minus quibusdam
+            ipsum obcaecati sunt nemo doloremque pariatur dolorem? Earum
+            voluptatibus placeat delectus atque, excepturi doloribus officia.
+            Sapiente eveniet modi laboriosam nam nobis, ea quidem quisquam natus,
+            fuga in porro nisi aliquam harum veniam. Ipsa ab neque quod! Optio,
+            similique fugiat maxime blanditiis quidem asperiores aliquid enim quaerat
+            a, facilis perspiciatis? Animi, incidunt dicta ad repellat,
+            reprehenderit culpa doloremque veniam vitae eaque magnam ipsam error?
+            ipsum dolor sit amet consectetur adipisicing elit.
+            Ad error consequatur dolore explicabo, nihil voluptates rem impedit eligendi
+            tenetur quidem hic non eum ipsum temporibus, cum repudiandae magnam natus,
+            ratione similique totam.
+            Sunt consequatur voluptatem veritatis temporibus voluptas, aliquam minima!</p>
+    </div>
+    <div class="thumbnail">
+        <img data-aos="fade-right" src="https://source.unsplash.com/300x300/?javascript,css" alt="image" class="imgFluid">
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="input">
+        <input class="form-input" type="text" name="name" placeholder=" Enter your name">
+        <input class="form-input" type="text" name="phone" placeholder=" Enter your phone">
+        <input class="form-input"type="text" name="email" placeholder=" Enter your email">
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your concern"></textarea>
+        <button class="btn btn-dark btn-sm">Submit</button>
+    </div>
+</section>
+
+<footer class="background">
+    <p class="text-footer">
+    Copyright &copy; 2021 Builders.com - All rights reserved
+    </p>
+</footer>
+<script src="./js/resp.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
